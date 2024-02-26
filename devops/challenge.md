@@ -7,6 +7,7 @@
 1. Implement a `Dockerfile` for that Node.js server.
 1. Create a setup in AWS which allows to run the Docker image and expose the server at a publicly available URL.
 1. Wire it up: Implement a GitHub Actions workflow which uses the `Dockerfile` to build the Docker image and deploys it to AWS.
+1. Document your workflow, thoughts and challenges in a `README` in the repository.
 
 > ℹ️ GitHub Free and AWS Free Tier should cover everything, so no costs should occur!
 
