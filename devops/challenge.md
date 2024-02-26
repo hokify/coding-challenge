@@ -8,6 +8,8 @@
 1. Create a setup in AWS which allows to run the Docker image and expose the server at a publicly available URL.
 1. Wire it up: Implement a GitHub Actions workflow which uses the `Dockerfile` to build the Docker image and deploys it to AWS.
 
+> ℹ️ GitHub Free and AWS Free Tier should cover everything, so no costs should occur!
+
 ## What to submit
 
 Three things:
