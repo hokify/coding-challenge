@@ -401,6 +401,7 @@ output:
 
 ### How to submit:
 - Create a private github repository
+- Please also briefly document your solution in a read.me so that we can understand your thoughts more easily. You can also outline ideas, problems or alternative solutions here.
 - Add @suits-at and @triepl  as collaborator
 - Tell us in the hokify chat that you are ready :)
   
