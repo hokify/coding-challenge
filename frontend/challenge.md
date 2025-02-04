@@ -1,42 +1,41 @@
 # Frontend Coding Challenge
 
-### Löse folgende Aufgabe und erstelle eine README.MD (Details siehe [hier](#READMEMD))
+### Solve the following task and create a README.MD (for details see [here](#READMEMD))
 
 ### Code
-1. Erstelle eine WebApp angelehnt im hokify Design. Verwende dazu entweder:
-- **Vue** (Vue 2 / Vue 3) oder
-- **Nuxt** (Nuxt 2 / Nuxt 3)
+1. Create a WebApp based on the hokify design, using **Vue 3** and **Nuxt 3 **
 
 
-- In dieser App befindet sich ein Formular mit folgenden Feldern:
-    - Vorname
-    - Nachname
-    - Email
-    - ein Select-Feld mit Auswahlmöglichkeiten für das Geschlecht
-    - und ein Kommentarfeld, in dem man eine Nachricht mit maximal 150 Zeichen eingeben kann
-- Bei Klick auf den "Senden"-Button kommt eine Erfolgsmeldung mit "Hallo `<Vorname> <Nachname>`. Willkommen bei hokify!".
-2. Verwende **VueX** um die Form-Daten zu speichern. Zusätzlich gibt es eine Navigations-Möglichkeit zu einer anderen Seite, wo man die Daten einsehen und auch wieder zurücksetzen (löschen) kann.
-3. Implementiere einen **Darkmode** (vorzugsweise in Tailwind), welcher durch einen Toggle aktiviert und deaktiviert werden kann (Farben dynamisch setzen). Der Toggle soll auf jeder Seite (zum Beispiel im Header) verfügbar sein.
-4. (Optional) Verbessere das Formular dadurch, dass es nur dann abgesendet werden kann, wenn es sich um eine syntaktisch valide E-Mail-Adresse handelt. Stelle sicher, dass dein Formular gängigen A11Y guidelines entspricht (z.b. via ARIA).
+- This app contains a form with the following fields
+    - First name
+    - Last name
+    - Email address
+    - A select field with selection options for e.g. gender
+    - And a comment field, in which you can enter a message with a maximum of 150 characters
+- When you click on the ‘Send’ button, a success message appears with ‘Hello `<first name> <last name>`. Welcome to hokify!’.
+2. Use **Pinia** to save the form data. In addition, there is a navigation option to another page where you can view and reset (delete) the data.
+3. On another route, fetch some data from any free online API, and show it in a list. The list should contain at least 10 items. When you click on an item, a detail view should open (in a modal or on a new page). The detail view should present more information about the clicked item.
+4. Implement a **Darkmode** (preferably in Tailwind), which can be activated and deactivated by a toggle (set colours dynamically). The toggle should be available on every page (for example in the header).
+5. (Optional) Improve the form so that it can only be sent if it is a syntactically valid email address. Make sure that your form complies with common A11Y guidelines (e.g. via ARIA).
 
-### Worüber wir uns freuen würden:
+### What we would be happy about:
 
-- Wenn du **Tailwind** verwendest
-- Wenn du **Typescript** verwendest
+- If you use **Tailwind**
+- If you use **Typescript**
 
 ### README.MD
-- Erstelle eine README.MD Datei, in der du folgende Dinge beschreibst:
-    - Wie bist du an die Challenge herangegangen?
-    - Welche Ideen / Gedanken hattest du dabei?
-    - Welche Probleme sind aufgetreten?
-    - Bitte füge auch eine **genaue Beschreibung** hinzu, wie wir deinen Code testen können. (z.B. via npm run dev)
-    - Lass uns auch wissen, welchen Package Manager du verwendest hast (und welchen wir somit verwenden sollen)
+- Create a README.MD file in which you describe the following things:
+    - How did you approach the challenge?
+    - What ideas / thoughts did you have?
+    - What problems did you encounter?
+    - Please also add an **exact description** of how we can test your code. (e.g. via pnpm run dev)
+    - Also let us know which package manager you used (and which one we should use)
         - NPM
         - PNPM
         - YARN
 
-## Übermittle uns deine Coding Challenge:
-- Erzeuge ein privates GitHub Repository und füge deinen **Code** hinzu.
-- Füge deine **README.MD** hinzu.
-- Gib **@suits-at** und **@triepl** Lesezugriff auf dieses Repository.
-- Gib uns im hokify Chat Bescheid, dass deine Challenge fertig ist. Wir melden uns dann bei dir, sobald wir uns den Code angesehen haben. :)
+## Submit your coding challenge:
+- Create a private GitHub repository and add your **code**.
+- Add your **README.MD**.
+- Give **@triepl** read access to this repository.
+- Let us know via email that your challenge is ready. We will get back to you as soon as we have looked at the code. :)
