@@ -15,7 +15,7 @@
 - When you click on the ‘Send’ button, a success message appears with ‘Hello `<first name> <last name>`. Welcome to hokify!’.
 2. Use **Pinia** to save the form data. In addition, there is a navigation option to another page where you can view and reset (delete) the data.
 3. On another route, fetch some data from any free online API, and show it in a list. The list should contain at least 10 items. When you click on an item, a detail view should open on a new page. The detail view should present more information about the clicked item.
-4. Implement a **Darkmode** (preferably in Tailwind), which can be activated and deactivated by a toggle (set colours dynamically). The toggle should be available on every page (for example in the header).
+4. Implement a **Darkmode** (preferably in Tailwind), which can be activated and deactivated by a toggle (set colours dynamically). The toggle should be available on every page (for example in the header). Extra: The darkmode also depends on the OS/Browser preference.
 5. (Optional) Improve the form so that it can only be sent if it is a syntactically valid email address. Make sure that your form complies with common A11Y guidelines (e.g. via ARIA).
 
 ### What we would be happy about:
