@@ -1,5 +1,5 @@
-# hokify backend coding challenge1
-#### spec 1.1
+# hokify backend coding challenge
+#### specs
 
 - javascript objects describing an update / patch operation for an existing object.
 - each keys is one update instruction
@@ -399,9 +399,13 @@ output:
 }
 ```
 
+### What we would be happy about:
+- If you use **Typescript**
+
 ### How to submit:
+
 - Create a private github repository
 - Please also briefly document your solution in a read.me so that we can understand your thoughts more easily. You can also outline ideas, problems or alternative solutions here.
-- Add @suits-at and @triepl  as collaborator
-- Tell us in the hokify chat that you are ready :)
+- Add @triepl  as collaborator
+- Tell us via email that you are ready :)
   
